@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Cliente
+    public class Cliente
     {
         private int cli_Id;
 

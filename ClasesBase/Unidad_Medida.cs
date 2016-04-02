@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Unidad_Medida
+    public class Unidad_Medida
     {
         private int uM_Id;
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Familia
+    public class Familia
     {
         private int fam_Id;
 

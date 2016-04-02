@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Historial_login
+    public class Historial_login
     {
         private int hLog_Id;
 
