@@ -9,13 +9,13 @@ using System.Windows.Forms;
 using ClasesBase;
 namespace Vistas
 {
-    public partial class Login : Form
+    public partial class FrmLogin : Form
     {
         public static List<Usuario> listaUsuarios = new List<Usuario>();
         public static List<Roles> listaRoles = new List<Roles>();
 
 
-        public Login()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -55,7 +55,10 @@ namespace Vistas
             }
             if (datosCorrectos)
             {
-                MessageBox.Show("correcto");
+                FrmPrincipal aFormPrincipal = new FrmPrincipal();
+                aFormPrincipal.Show();
+
+                this.Hide();
             }
             else
             {

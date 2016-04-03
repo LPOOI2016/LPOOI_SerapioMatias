@@ -46,16 +46,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.cs">
+    <Compile Include="FrmAltaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="FrmAltaCliente.Designer.cs">
+      <DependentUpon>FrmAltaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuCompra.Designer.cs">
+      <DependentUpon>FrmMenuCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuStock.Designer.cs">
+      <DependentUpon>FrmMenuStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelecionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelecionCliente.Designer.cs">
+      <DependentUpon>FrmSelecionCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAltaCliente.resx">
+      <DependentUpon>FrmAltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuCompra.resx">
+      <DependentUpon>FrmMenuCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuStock.resx">
+      <DependentUpon>FrmMenuStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelecionCliente.resx">
+      <DependentUpon>FrmSelecionCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
