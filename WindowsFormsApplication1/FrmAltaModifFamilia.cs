@@ -18,7 +18,10 @@ namespace Vistas
             InitializeComponent();
             frmAltaModifArticulo = frm;
         }
-
+        public FrmAltaModifFamilia()
+        {
+            InitializeComponent();
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {

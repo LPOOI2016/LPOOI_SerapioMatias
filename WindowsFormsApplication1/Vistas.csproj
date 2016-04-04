@@ -76,6 +76,12 @@
     <Compile Include="FrmAltaModifUnidadMedida.Designer.cs">
       <DependentUpon>FrmAltaModifUnidadMedida.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmListaFamilias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaFamilias.Designer.cs">
+      <DependentUpon>FrmListaFamilias.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmListaProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAltaModifUnidadMedida.resx">
       <DependentUpon>FrmAltaModifUnidadMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaFamilias.resx">
+      <DependentUpon>FrmListaFamilias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmListaProveedores.resx">
       <DependentUpon>FrmListaProveedores.cs</DependentUpon>

@@ -28,7 +28,22 @@ namespace Vistas
 
         private void button1_Click(object sender, EventArgs e)
         {
+            FrmAltaModifArticulo altaArticulo = new FrmAltaModifArticulo();
 
+            altaArticulo.Show();
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            FrmListaProveedores frmListaProveedores = new FrmListaProveedores();
+
+            frmListaProveedores.Show();
+        }
+
+        private void btnFamilias_Click(object sender, EventArgs e)
+        {
+            FrmListaFamilias frmListaFamilias = new FrmListaFamilias();
+            frmListaFamilias.Show();
         }
     }
 }

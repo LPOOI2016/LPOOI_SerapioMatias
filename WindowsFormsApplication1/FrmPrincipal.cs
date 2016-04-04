@@ -91,6 +91,16 @@ namespace Vistas
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
+            CerrarApp();
+        }
+
+        private void FrmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            CerrarApp();
+            
+        }
+
+        private void CerrarApp() {
             DialogResult result = MessageBox.Show("desea Salir de la aplicacion", "salir", MessageBoxButtons.YesNo);
 
             if (result == DialogResult.Yes)
@@ -105,11 +115,16 @@ namespace Vistas
                     // Console app
                     System.Environment.Exit(1);
                 }
-                
+
             }
         }
 
-        
+        private void btnStock_Click(object sender, EventArgs e)
+        {
+            FrmMenuStock menuStock = new FrmMenuStock();
+
+            menuStock.Show();
+        }
         
 
     }

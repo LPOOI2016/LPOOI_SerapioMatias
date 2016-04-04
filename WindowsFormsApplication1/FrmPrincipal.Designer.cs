@@ -129,6 +129,7 @@
             this.btnStock.Size = new System.Drawing.Size(135, 136);
             this.btnStock.TabIndex = 0;
             this.btnStock.UseVisualStyleBackColor = false;
+            this.btnStock.Click += new System.EventHandler(this.btnStock_Click);
             this.btnStock.MouseLeave += new System.EventHandler(this.btnStock_MouseLeave);
             this.btnStock.MouseHover += new System.EventHandler(this.btnStock_MouseHover);
             // 
@@ -151,6 +152,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmPrincipal";
             this.Text = "FormPrincipal";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

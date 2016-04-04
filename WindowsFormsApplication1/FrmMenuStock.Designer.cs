@@ -65,6 +65,7 @@
             this.btnProveedores.TabIndex = 0;
             this.btnProveedores.Text = "Proveedores...";
             this.btnProveedores.UseVisualStyleBackColor = true;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnFamilias
             // 
@@ -74,6 +75,7 @@
             this.btnFamilias.TabIndex = 0;
             this.btnFamilias.Text = "Familias...";
             this.btnFamilias.UseVisualStyleBackColor = true;
+            this.btnFamilias.Click += new System.EventHandler(this.btnFamilias_Click);
             // 
             // groupBox1
             // 

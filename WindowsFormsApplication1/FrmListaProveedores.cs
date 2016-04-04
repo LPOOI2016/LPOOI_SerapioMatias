@@ -15,5 +15,11 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void btnNuevoProveedor_Click(object sender, EventArgs e)
+        {
+            FrmAltaModifProveedores frmAltaModifProveedores = new FrmAltaModifProveedores();
+            frmAltaModifProveedores.Show();
+        }
     }
 }
