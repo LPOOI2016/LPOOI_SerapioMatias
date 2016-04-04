@@ -89,6 +89,26 @@ namespace Vistas
 
         }
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("desea Salir de la aplicacion", "salir", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                if (System.Windows.Forms.Application.MessageLoop)
+                {
+                    // WinForms app
+                    System.Windows.Forms.Application.Exit();
+                }
+                else
+                {
+                    // Console app
+                    System.Environment.Exit(1);
+                }
+                
+            }
+        }
+
         
         
 

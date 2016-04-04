@@ -30,7 +30,7 @@ namespace Vistas
             listaRoles.Add(new Roles(6, "Cajero"));
 
             //Cargo la lista de usuarios
-            listaUsuarios.Add(new Usuario(1,"juan", "Vargas", "juanvargas", "1111", 1, "jua@gmail.com"));
+            listaUsuarios.Add(new Usuario(1,"admin", "admin", "admin", "admin", 1, "adm@gmail.com"));
             listaUsuarios.Add(new Usuario(2,"don", "pepito", "pepito", "1111", 2, "pepitp@gmail.com"));
             listaUsuarios.Add(new Usuario(3,"don", "jose", "jose", "1111", 3, "jose@gmail.com"));
             listaUsuarios.Add(new Usuario(4,"san", "Martin", "sanmartin", "1111", 4, "sanmartin@gmail.com"));
@@ -64,6 +64,11 @@ namespace Vistas
             {
                 MessageBox.Show("datos incorrectos");
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

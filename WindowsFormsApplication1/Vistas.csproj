@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAltaCliente.cs">
+    <Compile Include="FrmAltaModifArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAltaCliente.Designer.cs">
-      <DependentUpon>FrmAltaCliente.cs</DependentUpon>
+    <Compile Include="FrmAltaModifArticulo.Designer.cs">
+      <DependentUpon>FrmAltaModifArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaModifFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaModifFamilia.Designer.cs">
+      <DependentUpon>FrmAltaModifFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaModifCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaModifCliente.Designer.cs">
+      <DependentUpon>FrmAltaModifCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaModifProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaModifProveedores.Designer.cs">
+      <DependentUpon>FrmAltaModifProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaModifUnidadMedida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaModifUnidadMedida.Designer.cs">
+      <DependentUpon>FrmAltaModifUnidadMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaProveedores.Designer.cs">
+      <DependentUpon>FrmListaProveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuCompra.cs">
       <SubType>Form</SubType>
@@ -84,8 +114,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAltaCliente.resx">
-      <DependentUpon>FrmAltaCliente.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAltaModifArticulo.resx">
+      <DependentUpon>FrmAltaModifArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaModifCliente.resx">
+      <DependentUpon>FrmAltaModifCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaModifFamilia.resx">
+      <DependentUpon>FrmAltaModifFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaModifProveedores.resx">
+      <DependentUpon>FrmAltaModifProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaModifUnidadMedida.resx">
+      <DependentUpon>FrmAltaModifUnidadMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaProveedores.resx">
+      <DependentUpon>FrmListaProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuCompra.resx">
       <DependentUpon>FrmMenuCompra.cs</DependentUpon>

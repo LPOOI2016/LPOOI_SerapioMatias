@@ -62,6 +62,7 @@
             this.btnSalir.Size = new System.Drawing.Size(135, 136);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             this.btnSalir.MouseLeave += new System.EventHandler(this.btnSalir_MouseLeave);
             this.btnSalir.MouseHover += new System.EventHandler(this.btnSalir_MouseHover);
             // 

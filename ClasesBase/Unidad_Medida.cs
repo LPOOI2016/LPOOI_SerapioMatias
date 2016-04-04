@@ -30,5 +30,12 @@ namespace ClasesBase
             get { return uM_Abrev; }
             set { uM_Abrev = value; }
         }
+
+        public Unidad_Medida(int id, String descripcion, String abrev)
+        {
+            UM_Id = id;
+            UM_descrip = descripcion;
+            UM_Abrev = abrev;
+        }
     }
 }

@@ -18,8 +18,8 @@ namespace Vistas
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FrmAltaCliente frmAltaCliente = new FrmAltaCliente();
-            frmAltaCliente.Show();
+            FrmAltaModifCliente frmAltaModifCliente = new FrmAltaModifCliente();
+            frmAltaModifCliente.Show();
         }
     }
 }
